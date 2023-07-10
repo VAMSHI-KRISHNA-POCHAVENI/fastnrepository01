@@ -1,40 +1,55 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+;; height:fill-container
+background.solid: aqua
+align-content: center
+spacing.fixed.px: 20
+
+-- card:
+
+-- card:
+
+Ruled the rankings for a decade
+
+-- card:VK❤️
+
+IND VS WI 
+
+-- end: ftd.column
+
+-- component card:
+caption title: KING
+body description: 75 centuries jersy 18 The Run Machine
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px:350
+background.solid: #89cff0
+border-width.px: 3
+ padding.px: 20
+ border-radius.px:20
+ spacing.fixed.px: 50
+
+-- ftd.image:
+src: https://th.bing.com/th/id/R.e5080268f6f2b90d0b39f5b97487b789?rik=cHfHyggGeE1jWg&riu=http%3a%2f%2fimages.newindianexpress.com%2fuploads%2fuser%2fimagelibrary%2f2017%2f6%2f22%2foriginal%2fViratKohli_AP4.jpg&ehk=4H2Ue7Rkb6N%2fFbxyQaCVW38A%2f%2bwL7XjilQgdj6ZXp%2bc%3d&risl=&pid=ImgRaw&r=0
+height: fill-container
+width: fill-container
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.column:
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.text: $card.title
+ role: $inherited.types.heading-medium
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.text: 
+role: $inherited.types.copy-regular
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+$card.description
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
+-- end: ftd.column
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- end: ftd.row
 
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: card
